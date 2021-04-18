@@ -52,7 +52,7 @@ h2{
 
                     function compare($number){
                         for ($ctr = 2; $ctr <= $number-1; $ctr++){  
-                            if ($number % $i == 0) { 
+                            if ($number % $ctr == 0) { 
                                 $result = True;
                             }
                         }
